@@ -1,6 +1,7 @@
 return {
   _all = {
     lpath = "lua/?.lua;lua/?/init.lua;spec/?.lua",
+    -- lua = "nvim -u NONE -U NONE -N -i NONE -l", -- XXX: If you enable this line, coverage will not work
   },
   default = {
     verbose = true,

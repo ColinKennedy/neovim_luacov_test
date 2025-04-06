@@ -1,3 +1,5 @@
+require("luacov")
+
 local test_package = require("test_package")
 
 
